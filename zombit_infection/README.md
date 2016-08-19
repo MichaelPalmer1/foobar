@@ -9,9 +9,14 @@ So far, the lab experts have discovered that all rabbits contain a property they
 
 You will be provided with the following information:
 population = A 2D non-empty array of positive integers of the form `population[y][x]`, that is, row then column. (The dimensions of the array are not necessarily equal.) Each cell contains one rabbit, and the value of the cell represents that rabbit's Resistance.
+
+```
 x = The X-Coordinate (column) of "Patient Z" in the population array.
+
 y = The Y-Coordinate (row) of "Patient Z" in the population array.
+
 strength = A constant integer value representing the Strength of the virus.
+```
 
 Here are the rules of the simulation: First, the virus will attempt to infect Patient Z. Patient Z will only be infected if the infection's Strength equals or exceeds Patient Z's Resistance. From then on, any infected rabbits will attempt to infect any uninfected neighbors (cells that are directly - not diagonally - adjacent in the array). They will succeed in infecting any neighbors with a Resistance lower than or equal to the infection's Strength. This will continue until no further infections are possible (i.e., every uninfected rabbit adjacent to an infected rabbit has a Resistance greater than the infection's Strength.)
 
