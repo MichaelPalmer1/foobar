@@ -28,19 +28,25 @@ Test cases
 ==========
 
 Inputs:
-    `(int) population = [[1, 2, 3], [2, 3, 4], [3, 2, 1]]`
-    `(int) x = 0`
-    `(int) y = 0`
-    `(int) strength = 2`
+```
+(int) population = [[1, 2, 3], [2, 3, 4], [3, 2, 1]]
+(int) x = 0
+(int) y = 0
+(int) strength = 2
+```
+
 Output:
-    `(int) [[-1, -1, 3], [-1, 3, 4], [3, 2, 1]]`
+`(int) [[-1, -1, 3], [-1, 3, 4], [3, 2, 1]]`
+
 
 Inputs:
-    `(int) population = [[6, 7, 2, 7, 6], [6, 3, 1, 4, 7], [0, 2, 4, 1, 10], [8, 1, 1, 4, 9], [8, 7, 4, 9, 9]]`
-    `(int) x = 2`
-    `(int) y = 1`
-    `(int) strength = 5`
+```
+(int) population = [[6, 7, 2, 7, 6], [6, 3, 1, 4, 7], [0, 2, 4, 1, 10], [8, 1, 1, 4, 9], [8, 7, 4, 9, 9]]
+(int) x = 2
+(int) y = 1
+(int) strength = 5
+```
 Output:
-    `(int) [[6, 7, -1, 7, 6], [6, -1, -1, -1, 7], [-1, -1, -1, -1, 10], [8, -1, -1, -1, 9], [8, 7, -1, 9, 9]]`
+`(int) [[6, 7, -1, 7, 6], [6, -1, -1, -1, 7], [-1, -1, -1, -1, 10], [8, -1, -1, -1, 9], [8, 7, -1, 9, 9]]`
 
 Use `verify [file]` to test your solution and see how it does. When you are finished editing your code, use `submit [file]` to submit your answer. If your solution passes the test cases, it will be removed from your home folder.
